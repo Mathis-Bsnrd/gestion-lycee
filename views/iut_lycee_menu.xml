@@ -1,0 +1,10 @@
+<odoo>
+    <data>
+        <menuitem name="Lycée" id="menu_root" sequence="84"/>
+        <menuitem id="menu_student_action" parent="menu_root" action="iut_student_action"/>
+        <menuitem id="menu_class_action" parent="menu_root" action="iut_class_action"/>
+        <menuitem id="menu_course_action" parent="menu_root" action="iut_course_action"/>
+        <menuitem id="menu_schedule_action" parent="menu_root" action="iut_schedule_action"/>
+        <menuitem id="menu_schedule_action" parent="menu_root" action="iut_prof_action"/>
+    </data>
+</odoo>
