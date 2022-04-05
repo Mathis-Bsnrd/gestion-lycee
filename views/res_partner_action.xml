@@ -1,0 +1,19 @@
+<odoo>
+    <record id="iut_prof_action" model="ir.actions.act_window">
+        <field name="name">Prof</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">res.partner</field>
+        <field name="view_mode">tree</field>
+        <field name="context">{'search_default_opened':1}</field>
+    </record>
+<!--     <record id="iut_prof_treeview" model="ir.ui.view">
+        <field name="name">Prof</field>      
+        <field name="model">res.partner</field>    
+        <field name="priority">2</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="class_ids"/>
+            </tree>
+        </field>
+    </record> -->
+</odoo>

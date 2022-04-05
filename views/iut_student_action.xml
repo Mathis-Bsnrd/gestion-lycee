@@ -1,0 +1,23 @@
+<odoo>
+    <record id="iut_student_action" model="ir.actions.act_window">
+        <field name="name">Elèves</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">iut.student</field>
+        <field name="view_mode">tree</field>
+        <field name="context">{'search_default_opened':1}</field>
+    </record>
+    <record id="iut_student_treeview" model="ir.ui.view">
+        <field name="name">student_view</field>
+        <field name="model">iut.student</field>
+        <field name="priority">2</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="firstname"/>
+                <field name="lastname"/>
+                <field name="birthdate"/>
+                <field name="age"/>
+                <field name="class_id"/>
+            </tree>
+        </field>
+    </record>
+</odoo>

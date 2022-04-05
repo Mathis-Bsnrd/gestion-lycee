@@ -17,6 +17,12 @@
     "external_dependencies": {"python": [], "bin": []},
 
     'data': [
+        'views/iut_student_action.xml',
+        'views/iut_class_action.xml',
+        'views/iut_course_action.xml',
+        'views/iut_schedule_action.xml',
+        'views/res_partner_action.xml',
+        'views/iut_lycee_menu.xml'
 
     ],
     'qweb': [
